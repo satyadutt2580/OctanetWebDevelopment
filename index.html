@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+<title>Todo List</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h2>Todo List</h2>
+
+<div id="todo-list">
+    <ul id="tasks"></ul>
+</div>
+
+<label for="task">Task:</label>
+<input type="text" id="task" required>
+<label for="start-date">Start Date:</label>
+<input type="date" id="start-date" required>
+<label for="end-date">End Date:</label>
+<input type="date" id="end-date" required>
+<button onclick="addTask()">Add Task</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
