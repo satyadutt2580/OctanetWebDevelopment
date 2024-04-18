@@ -1,3 +1,5 @@
+
+
 let tasks = [];
 
 function renderTasks() {
@@ -6,6 +8,13 @@ function renderTasks() {
     tasks.forEach((task, index) => {
         const li = document.createElement('li');
         li.textContent = `${index + 1}. Task: ${task.task}, Start Date: ${task.start_date}, End Date: ${task.end_date}`;
+        
+        // Add a button to remove the task
+        const removeButton = document.createElement('button');
+        removeButton.textContent = 'Remove';
+        removeButton.onclick = () => removeTask(index); // Call removeTask function with index
+        li.appendChild(removeButton);
+
         tasksList.appendChild(li);
     });
 }
@@ -28,4 +37,9 @@ function addTask() {
     taskInput.value = '';
     startDateInput.value = '';
     endDateInput.value = '';
+}
+
+function removeTask(index) {
+    tasks.splice(index, 1); // Remove the task at the given index
+    renderTasks(); // Re-render the tasks list
 }
