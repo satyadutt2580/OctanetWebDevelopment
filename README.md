@@ -1,7 +1,7 @@
-# OctanetWebDevelopment
-Octanet Task 2
+Octanet Task 1
+Landing Page
 
-Hello OctaNet-Friends,
+Hello Friends,
 Welcome to my OCTANET_April participant repository! In this repository, you'll find my solution to the assigned task given by OctaNet Services Pvt Ltd.
 
 Task Details
@@ -80,8 +80,22 @@ Documentation and Submission:
 Document the development process and decisions.
 Prepare the repository for final submission.
 Links
-https://octanet-march-jet.vercel.app/Landing%20-%20page/index.html
-https://octanet-march-jet.vercel.app/To-Do%20List/index.html
+
+Task 1-
+Github deployment link- https://satyadutt2580.github.io/OCTANETLandingPageProject/
+
+Github front link- https://console.gitfront.io/
+
+Netlify deployment link- https://deluxe-horse-e21415.netlify.app/
+
+
+Task2- 
+Github deployment link- https://satyadutt2580.github.io/OctanetWebDevelopment/
+
+Github front link- https://console.gitfront.io/
+
+Netlify deployment link- https://luxury-meerkat-3cd1a0.netlify.app/
+
 Preparation Steps:
  Determine application's purpose
  Sketch design ideas
